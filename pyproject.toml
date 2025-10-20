@@ -1,0 +1,17 @@
+[project]
+name = "motion-latent-diffusion-standalone"
+version = "0.1.0"
+description = "Standalone MLD Text-to-Motion Generator - Generate human motion from text descriptions"
+readme = "README.md"
+authors = [{ name = "Julien Blanchon", email = "julien@blanchon.cc" }]
+requires-python = ">=3.11"
+dependencies = [
+    "diffusers>=0.35.2",
+    "huggingface-hub>=0.35.3",
+    "torch>=2.9.0",
+    "transformers>=4.57.1",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.2,<0.10.0"]
+build-backend = "uv_build"
