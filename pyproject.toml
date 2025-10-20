@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Standalone MLD Text-to-Motion Generator - Generate human motion from text descriptions"
 readme = "README.md"
 authors = [{ name = "Julien Blanchon", email = "julien@blanchon.cc" }]
-requires-python = ">=3.11"
+requires-python = ">=3.10"
 dependencies = [
     "diffusers>=0.35.2",
     "huggingface-hub>=0.35.3",
