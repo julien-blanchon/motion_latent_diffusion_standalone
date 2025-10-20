@@ -1154,7 +1154,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "gradio", specifier = ">=5.49.1" },
+    { name = "gradio", specifier = "==5.49.1" },
     { name = "matplotlib", specifier = ">=3.10.7" },
     { name = "motion-latent-diffusion-standalone", git = "https://github.com/julien-blanchon/minimal-motion-generation" },
     { name = "numpy", specifier = ">=2.3.4" },

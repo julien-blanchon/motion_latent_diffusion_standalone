@@ -1,3 +1,15 @@
+---
+title: Motion Latent Diffusion Standalone Demo
+emoji: 📊
+colorFrom: purple
+colorTo: indigo
+sdk: gradio
+python_version: 3.11
+sdk_version: 5.49.1
+app_file: app.py
+pinned: false
+---
+
 # Demo
 
 Command-line and web interfaces for motion-latent-diffusion-standalone.

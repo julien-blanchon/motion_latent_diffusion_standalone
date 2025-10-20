@@ -7,6 +7,7 @@ from tqdm import tqdm
 from textwrap import dedent
 import spaces
 
+
 from motion_latent_diffusion_standalone import MotionLatentDiffusionModel
 from visualize import create_video_from_joints
 

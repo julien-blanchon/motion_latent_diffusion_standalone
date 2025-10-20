@@ -5,17 +5,17 @@ description = "Demo applications for MLD Text-to-Motion Generator - CLI and Grad
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "gradio>=5.49.1",
+    "gradio==5.49.1",
     "matplotlib>=3.10.7",
     "numpy>=2.3.4",
     "torch>=2.9.0",
-    "motion-latent-diffusion-standalone",
     "tqdm>=4.67.1",
     "spaces>=0.42.1",
+    "`motion-latent-diffusion-standalone",
 ]
 
 [dependency-groups]
 dev = ["ipykernel>=7.0.1"]
 
 [tool.uv.sources]
-motion-latent-diffusion-standalone = { git = "https://github.com/julien-blanchon/minimal-motion-generation" }
+motion-latent-diffusion-standalone = { git = "https://github.com/julien-blanchon/motion_latent_diffusion_standalone" }
